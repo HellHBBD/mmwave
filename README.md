@@ -1,5 +1,7 @@
 # K60168A Dongle 與雷達手勢辨識專案使用指南
 
+> 完整版 KSOC 工具或壓縮檔 [Google Drive（K60168A Dongle 套件）](https://drive.google.com/drive/folders/1ZA2Yy3kvKtU4vUTr5aElwfw7M1GN1krn?usp=sharing)
+
 本目錄包含兩個互相配合的專案：
 
 1. **`K60168A_Dongle/`**：官方提供的 KSOC 工具、韌體設定與 RDI（Range-Doppler Image）產生腳本，用於**資料擷取與雷達視覺化**。
@@ -202,4 +204,3 @@ python .\src\online_inference_gui.py
 3. 建立自動化測試（例如以虛擬 `.h5` 產生器跑 `pytest`）以確保前處理與推論在升級依賴時仍可運作。
 
 祝開發順利！
-
