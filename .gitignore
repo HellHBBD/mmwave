@@ -1,0 +1,31 @@
+# Python / build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+
+# Training / data outputs
+data/
+output/
+*.h5
+*.npz
+*.pth
+
+# Vendor binaries / archives
+*.exe
+*.dll
+*.zip
+*.7z
+*.rar
+
+# Device temp/config caches
+TempParam/
+KSOC_Tool/TempParam/
+
