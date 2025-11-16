@@ -1,0 +1,46 @@
+{"KSOC_TOOL":
+  {
+    "GestureRecording":
+    {
+      "Mode": {"data_type":"RAWDATA"},
+      "Updater" :{
+        "hardware_id": "",
+        "phase_compensate_real":0,
+        "phase_compensate_imag":1
+      },
+      "Receiver":{
+        "MultiResult4169CReceiver":{"enable": "0x3", "binary_array": "0x40000010"},
+        "RawDataReceiver":{},
+        "FeatureMapReceiver":{}
+      }
+    },
+    "MultiResults":
+    {
+      "Mode":{},
+      "Receiver":{
+        "MultiResult4168BReceiver":{"actions": 7, "rbank_ch_enable": 7, "read_interrupt": 0, "clear_interrupt": 0},
+        "MultiResult4169CReceiver":{"enable": "0x03", "binary_array": "0x70000070"}
+      },
+      "Updater" :{}
+    },
+    "LabelingCollection":
+    {
+      "Mode":{},
+      "Updater" :{}
+    },
+    "DisplayRecordData":
+    {
+      "Mode":{},
+      "Updater" :{"chirps": "1", "samples": "128"}
+    },
+    "MultiResultsDataCollection":
+    {
+      "Mode":{},
+      "Receiver":{
+        "MultiResult4168BReceiver":{"actions": 1, "rbank_ch_enable": 1, "read_interrupt": 0, "clear_interrupt": 0},
+        "MultiResult4169CReceiver":{"enable": "0x02", "binary_array": "0x0"}
+      },
+      "Updater" :{}
+    }
+  }
+}
